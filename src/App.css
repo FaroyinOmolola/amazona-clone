@@ -1,0 +1,21 @@
+html{
+  
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  height: 100vh;
+  font-size: 1.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bg{
+  background-color: darkslategray;
+}
+.naira{
+  text-decoration: line-through;
+    text-decoration-style: double;
+}
+
+.rating{
+  color: #f0c040;
+}
