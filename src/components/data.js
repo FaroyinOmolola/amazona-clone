@@ -6,6 +6,7 @@ const data = {
 			category: "dog food",
 			image: "/images/233-2331886_canned-pedigree-dog-food-hd-png-download.png",
 			price: 1200,
+			countInStock: 10,
 			brand: "Pedigree",
 			rating: 4.5,
 			numReview: 10,
@@ -17,10 +18,11 @@ const data = {
 			category: "dog food",
 			image: "/images/233-2331886_canned-pedigree-dog-food-hd-png-download.png",
 			price: 800,
+			countInStock: 20,
 			brand: "Pedigree",
 			rating: 4.0,
 			numReview: 7,
-			description: "Quality dog food for parseCustomProperties(parseCustomProperties)"
+			description: "Quality dog food for adult dogs"
 		},
 		{
 			id: "3",
@@ -28,9 +30,10 @@ const data = {
 			category: "dog accesories",
 			image: "/images/233-2331886_canned-pedigree-dog-food-hd-png-download.png",
 			price: 3500,
+			countInStock: 0,
 			brand: "Korex",
 			rating: 5.0,
-			numReview: 12,
+			numReview: 15,
 			description: "Quality and strong leash for giant dogs"
 		},
 		{
@@ -39,6 +42,7 @@ const data = {
 			category: "dog care products",
 			image: "/images/233-2331886_canned-pedigree-dog-food-hd-png-download.png",
 			price: 1500,
+			countInStock: 12,
 			brand: "Animal care",
 			rating: 4.5,
 			numReview: 6,
@@ -50,6 +54,7 @@ const data = {
 			category: "dog food",
 			image: "/images/233-2331886_canned-pedigree-dog-food-hd-png-download.png",
 			price: 1200,
+			countInStock: 3,
 			brand: "Pedigree",
 			rating: 3.5,
 			numReview: 10,
@@ -61,6 +66,7 @@ const data = {
 			category: "dog food",
 			image: "/images/233-2331886_canned-pedigree-dog-food-hd-png-download.png",
 			price: 1300,
+			countInStock: 10,
 			brand: "Pedigree",
 			rating: 3,
 			numReview: 10,
