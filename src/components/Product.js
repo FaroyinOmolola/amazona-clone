@@ -2,6 +2,7 @@ import '../App.css';
 import { Col, Card} from 'react-bootstrap';
 import 'font-awesome/css/font-awesome.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {Link } from "react-router-dom"
 
 
  function Product (props) {
@@ -10,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
     <>
       <Col className="p-3 mb-3" >
         <Card style={{ width: '12rem' }} className="mx-auto">
-               <Card.Link href={`/product/${product.id}`} className="text-decoration-none text-dark">
+               <Link to={`/product/${product.id}`} className="text-decoration-none text-dark">
                 <Card.Img variant="top" src={product.image} alt={product.name}/>
                 <Card.Body>
                 <Card.Title>{product.name}</Card.Title>
@@ -19,7 +20,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
                 </Card.Text>
                 <Card.Text className="fw-bold m-0"><span className="naira">N</span> {product.price}</Card.Text>
                 </Card.Body>
-              </Card.Link>
+              </Link>
             </Card>
           </Col>
     </>
