@@ -50,4 +50,4 @@ export const detailProduct = (productId) => async (dispatch) => {
 	}
 };
 
-const y = 0;
+//const y = 0;
