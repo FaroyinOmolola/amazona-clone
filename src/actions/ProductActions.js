@@ -7,13 +7,14 @@ import {
 	PRODUCT_DETAIL_FAIL,
 } from "../constants/ProducttConstants";
 import Axios from "axios";
+import { URL } from "../config";
 
 export const listProducts = () => async (dispatch) => {
 	dispatch({
 		type: PRODUCT_LIST_REQUEST,
 	});
 	try {
-		const { data } = await Axios.get("http://localhost:3000/products");
+		const { data } = await Axios.get(`${URL}/products`);
 		dispatch({
 			type: PRODUCT_LIST_SUCCESS,
 			payload: data,
@@ -32,9 +33,7 @@ export const detailProduct = (productId) => async (dispatch) => {
 		payload: productId,
 	});
 	try {
-		const { data } = await Axios.get(
-			`http://localhost:3000/products/${productId}`
-		);
+		const { data } = await Axios.get(`${URL}/products/${productId}`);
 		dispatch({
 			type: PRODUCT_DETAIL_SUCCESS,
 			payload: data,

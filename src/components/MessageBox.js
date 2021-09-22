@@ -1,12 +1,17 @@
-import React from 'react';
+import React from "react";
+import { Container } from "react-bootstrap";
 
-function MessageBox (props) {
+function MessageBox(props) {
   return (
-    <div className="p-2 border  border-dark rounded rounded-2
-    bg-light text-danger">
-    	{props.children}
-    </div>
-  )
+    <Container>
+      <div
+        className="p-2 border border-dark rounded rounded-2
+    bg-light text-danger"
+      >
+        {props.children}
+      </div>
+    </Container>
+  );
 }
 
 export default MessageBox;

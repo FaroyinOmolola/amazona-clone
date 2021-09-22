@@ -1,5 +1,64 @@
 {
-	"products":[
+	"orderItems": {
+		"name": "Dog Can Food",
+		"category": "dog food",
+		"qty": "7",
+		"image": "/images/233-2331886_canned-pedigree-dog-food-hd-png-download.png",
+		"price": 1200,
+		"countInStock": 10,
+		"brand": "Pedigree",
+		"rating": 4.5,
+		"numReview": 10,
+		"description": "Quality food ration for all dog age group"
+	},
+	"shippingAddress": {
+		"name": "Timothy",
+		"address": "Address",
+		"city": "City",
+		"postalCode": "Postal Code",
+		"country": "Country"
+	},
+	"paymentDetails": {
+		"paymentMethod": "PayPal",
+		"itemsPrice": 200,
+		"shippingPrice": 20,
+		"taxPrice": 5,
+		"totalPrice": 225,
+		"name": "Timothy",
+		"isPaid": true,
+		"paidAt": "",
+		"isDelivered": false,
+		"deliveredAt": ""
+	},
+	"register": [
+		{
+			"name": "Omolola",
+			"email": "admin@example.com",
+			"password": 1234,
+			"isAdmin": true
+		},
+		{
+			"name": "Timothy",
+			"email": "user@example.com",
+			"password": 1234,
+			"isAdmin": false
+		}
+	],
+	"users": [
+		{
+			"name": "Omolola",
+			"email": "admin@example.com",
+			"password": 1234,
+			"isAdmin": true
+		},
+		{
+			"name": "Timothy",
+			"email": "user@example.com",
+			"password": 1234,
+			"isAdmin": false
+		}
+	],
+	"products": [
 		{
 			"id": "1",
 			"name": "Dog Can Food",
